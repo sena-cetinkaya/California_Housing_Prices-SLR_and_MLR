@@ -19,7 +19,6 @@ print(data.columns)
 print(data.dtypes)
 
 # Learning the size of the dataset.
-
 print(data.shape)
 
 # Check for missing values.
@@ -78,7 +77,7 @@ print("R2 Score: ", r2_score(y_test, y_pred)*100)
 plt.scatter(X_train, y_train, color="pink")
 X_train_pred = model.predict((X_train))
 plt.scatter(X_train, X_train_pred, color="lightblue")
-plt.title('Ice Cream Profits - Temperature')
-plt.xlabel('Ice Cream Profits')
-plt.ylabel('Temperature')
+plt.title('population - total_rooms')
+plt.xlabel('population')
+plt.ylabel('total_rooms')
 plt.show()
